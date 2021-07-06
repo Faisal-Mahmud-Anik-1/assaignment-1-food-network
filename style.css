@@ -26,6 +26,7 @@ p {
   font-size: 18px;
   color: #666;
   margin-bottom: 30px;
+  line-height: 1.8rem;
 }
 a {
   color: #666;
@@ -97,7 +98,7 @@ li {
 }
 /* About Me Section */
 .about {
-  height: 100vh;
+  height: 90vh;
   min-width: 100%;
   display: flex;
   align-items: center;
@@ -108,13 +109,42 @@ li {
   background-size: contain;
 }
 .about img {
-  max-width: 45%;
+  max-width: 52%;
   margin-left: 30%;
 }
 .about p {
   margin-right: 40px;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+/* My Recipes */
+.recipies {
+  height: 100vh;
+}
+.recipies-width {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.boxes {
+  display: flex;
+  align-items: center;
+}
+.work-img {
+  width: 100%;
+}
+.box {
+  width: 30%;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 50px 40px;
+  box-shadow: 0px 0px 40px rgb(173, 173, 173);
+  border-radius: 20px;
+  background-color: white;
+}
+.boxes h3 {
+  font-size: 26px;
+  margin: 20px 0;
 }
 /* Footer */
 footer {
