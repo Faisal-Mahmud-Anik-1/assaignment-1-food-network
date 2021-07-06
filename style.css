@@ -1,5 +1,136 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
+}
+
+/* Custom */
+h1 {
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: rgb(78, 78, 78);
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 50px;
+  font-family: "RaleWay", sans-serif;
+  color: rgb(78, 78, 78);
+  margin-bottom: 30px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.text-color {
+  color: #fb924a;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #fb924a 0%,
+    rgb(253, 99, 71) 51%,
+    tomato 100%
+  );
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px 35px;
+  margin-top: 30px;
+  border-radius: 45px;
+  box-shadow: 0 10px 10px -2px #fb914a7c;
+}
+
+/* Navigation Menu  */
+
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 60px;
+}
+.logo-text {
+  font-family: "Pacifico", cursive;
+  margin-top: 10px;
+}
+.navmenu li a {
+  padding: 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fb924a;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 60px;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 90%;
+}
+.half-width p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 50px;
+}
+/* About Me Section */
+.about {
+  height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 60px;
+  margin-bottom: 100px;
+  background-image: url(/img/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about img {
+  max-width: 45%;
+  margin-left: 30%;
+}
+.about p {
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* Footer */
+footer {
+  height: 30vh;
+  background-color: black;
+  text-align: center;
+}
+footer h2 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+footer p {
+  color: rgb(211, 211, 211);
+}
+footer img {
+  width: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
 }
