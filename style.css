@@ -1,3 +1,4 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@
   font-family: "Raleway", sans-serif;
 }
 
-/* Custom */
 h1 {
   font-size: 80px;
   font-family: "Raleway", sans-serif;
@@ -146,6 +146,21 @@ li {
   font-size: 26px;
   margin: 20px 0;
 }
+
+/* Followers & Subscribers */
+.subscriber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 40px rgb(212, 211, 211);
+  border-radius: 20px;
+  margin: 70px 250px;
+  padding: 50px 250px;
+}
+.subscriber h2 {
+  margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
   height: 30vh;
@@ -164,3 +179,4 @@ footer img {
   padding-bottom: 30px;
   padding-left: 10px;
 }
+/* Thank You for see my site 😉😉😉 */
